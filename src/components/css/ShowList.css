@@ -1,0 +1,25 @@
+.showlist-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.heading {
+    display: flex;
+    font-size: 20px;
+    justify-content: center;
+    padding-top: 2rem;
+    color: rgb(180, 173, 255);
+    text-decoration: underline;
+}
+
+body {
+    background-color: rgb(44, 9, 97);
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}

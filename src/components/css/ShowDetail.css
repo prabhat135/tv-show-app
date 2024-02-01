@@ -1,0 +1,85 @@
+.showdetail-container {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 90vh;
+    align-items: center;
+    background-color: #2b2b2b; 
+    color: aliceblue;
+    border-radius: 50px;
+    margin: 5rem auto;
+    /* margin-top: 20px; */
+  }
+  
+  .show-image {
+    width: 350px;
+    height: 400px;
+
+    /* margin-left: 4rem;
+    margin-right: 6rem;
+    margin-top: 50px;
+    margin-bottom: 5rem; */
+  }
+  
+  .show-content {
+    text-align: center;
+  }
+
+  .show-text {
+    background-color: #645b64;
+    border-radius: 50px;
+    height: 35vh;
+    display: flex;
+    margin: 2rem;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  .show-text h2 {
+    color: rgb(180, 173, 255);
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    text-decoration: underline;
+  }
+  
+  .show-text p {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .button-container {
+    /* display: flex; */
+    flex-direction: row;
+    align-items: center;
+    margin-top: 50px; 
+  }
+  
+  .back-button,
+.book-ticket-button {
+  padding: 10px 25px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 10px;
+  transition: background-color 0.3s ease, border 0.3s ease;
+  margin-left: 10px; 
+  margin-right: 10px;
+}
+
+.back-button {
+  background-color: #007bff;
+  color: #fff;
+}
+
+.back-button:hover {
+  background-color: #0056b3;
+}
+
+.book-ticket-button {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.book-ticket-button:hover {
+  background-color: #218838;
+}

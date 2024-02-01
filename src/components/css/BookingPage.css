@@ -1,0 +1,52 @@
+/* BookingPage.css */
+
+.booking-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .booking-heading {
+    text-align: center  ;
+  }
+  .form-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+    margin-top: 20px;
+    
+  }
+  
+  .form-label {
+    font-size: 18px;
+    margin-bottom: 8px;
+  }
+  
+  .form-input {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 16px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+  }
+  
+  .form-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+  }
+  
+  .form-button:hover {
+    background-color: #0056b3;
+  }
+  
